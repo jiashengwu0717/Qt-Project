@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyWidget</class>
+ <widget class="QWidget" name="MyWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>416</width>
+    <height>275</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>18</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MyWidget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget
+{
+background: rgb(209, 255, 247);
+color: blue;
+}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_portal">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>160</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	color: red;
+	font: 300 13pt &quot;STFangsong&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>门户网</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_course">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>160</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background: yellow;
+	font: 300 13pt &quot;STFangsong&quot;;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>教学网</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>30</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+	font: italic 13pt &quot;BM Yeonsung&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_treehole">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background: rgb(68, 255, 85);
+	color: green;
+}</string>
+   </property>
+   <property name="text">
+    <string>树洞功能</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_bbs">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>90</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	color:rgb(255, 143, 38)
+}</string>
+   </property>
+   <property name="text">
+    <string>BBS热点</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_campus">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>90</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	color: purple
+;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>校园指数</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
